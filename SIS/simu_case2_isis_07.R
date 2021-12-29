@@ -20,7 +20,7 @@ p <- 1000
 
 #correlation matrix M with rho_ij = rho^|i-j|
 M <- diag(1,p)
-rho <- 0.5
+rho <- 0.7
 for (i in 1:p)
 {
   for (j in 1:i)
@@ -79,4 +79,4 @@ while(j < 50){
   print(j)
 }
 
-save.image("simu_case1_isis_log_05.RData")
+save.image("simu_case2_isis_07.RData")

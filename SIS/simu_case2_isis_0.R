@@ -79,4 +79,4 @@ while(j < 50){
   print(j)
 }
 
-save.image("simu_case1_isis_log_0.RData")
+save.image("simu_case2_isis_0.RData")
